@@ -1,0 +1,48 @@
+.side-bar-menu {
+  padding: 0.5rem;
+}
+a.logo {
+  text-decoration: none;
+}
+.logo {
+  margin-top: 0%;
+  height: 5px;
+  margin-left: 32px;
+  display: inline-block;
+  color: cyan;
+  font-size: 10rem;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  font-family: "Cinzel", serif;
+}
+
+.logo1 {
+  position: absolute;
+  left: 76px;
+  display: inline-block;
+  margin-left: 0.5px;
+  font-size: 10rem;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  font-family: "Cinzel", serif;
+  color: rgb(241, 75, 103);
+}
+
+/* side bar menu */
+
+ul li a.menu-item {
+  list-style: none;
+  font-family: "Cinzel", serif;
+  line-height: 4rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.social {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.4rem;
+}

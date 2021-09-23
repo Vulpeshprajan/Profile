@@ -1,0 +1,20 @@
+.section-title {
+  margin: 2rem;
+  font-size: 3rem;
+  color: purple;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.skills div {
+  min-width: 30%;
+  font-size: 2rem;
+}
