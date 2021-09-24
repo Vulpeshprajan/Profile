@@ -1,15 +1,17 @@
 .side-bar-menu {
   padding: 0.5rem;
+  height: 100vh;
 }
 a.logo {
   text-decoration: none;
 }
 .logo {
   margin-top: 0%;
-  height: 5px;
+  height: 4px;
+  margin-bottom: 180px;
   margin-left: 32px;
   display: inline-block;
-  color: cyan;
+  color: yellow;
   font-size: 10rem;
   font-weight: bolder;
   font-stretch: ultra-expanded;
@@ -18,14 +20,17 @@ a.logo {
 
 .logo1 {
   position: absolute;
+  height: 4px;
   left: 76px;
+  margin-bottom: 180px;
   display: inline-block;
   margin-left: 0.5px;
   font-size: 10rem;
   font-weight: bolder;
   font-stretch: ultra-expanded;
   font-family: "Cinzel", serif;
-  color: rgb(241, 75, 103);
+  color: lightslategray;
+  /* color: rgb(241, 75, 103); */
 }
 
 /* side bar menu */
@@ -37,6 +42,12 @@ ul li a.menu-item {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  transition: 1000ms;
+  border-radius: 4px;
+}
+
+ul li a.menu-item:hover {
+  background-color: #1a83ff;
 }
 
 .social {

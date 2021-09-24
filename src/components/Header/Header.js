@@ -13,8 +13,9 @@ const Header = () => {
 					</LinkContainer>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="ms-auto bg-success">
-							<Nav.Link > Portfolio </Nav.Link>
+						<Nav className="ms-auto bg-light">
+					
+							<Nav.Link  > <strong  style={{ color: "black" }}> Portfolio </strong> </Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

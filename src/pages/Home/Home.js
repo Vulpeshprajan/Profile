@@ -15,16 +15,18 @@ const Home = () => {
             <img src={logo} alt="sagar" width="80%," height="auto;" />
           </div>
           <div className="col-md-7 order-md-1 hero-text">
-            <div>Hi there welcome to my website</div>
+            <h5>  Hi there welcome to my website</h5>
             <h1>I'm Sagar Pyakurel</h1>
             <p>
               I'm a full stack developer always passionate about solving the
               problem & creating always a new design from nothing.
             </p>
                 <div>
-                <a href="https://www.linkedin.com/in/sagar-pyakurel-617917174/" rel= "noreferrer" target="_blank"><button type="button" className="btn btn-danger"> Hire Me!</button></a>
+                <Link to="/Contact">
+                <button type="button" className="btn btn-danger"> Hire Me!</button>
                    <br /> <br />
 
+                   </Link>
                   <Link to="/About-Me">
                     
                   <button type="button" className="btn btn-primary" >  Find out more about me 

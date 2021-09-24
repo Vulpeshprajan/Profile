@@ -7,65 +7,40 @@ const Contact = () => {
         <DefaultLayout>
           
       
-            <Form className="container-fluid">
-                <h1 >Enquiry Form </h1> <br/>
-  <Row className="mb-3">
+            <Form className="container-fluid " >
+          <h1 ><strong> Lets talk  </strong></h1> <br />
+          <h5>Get in touch via the form below, or by emailing
+          
+          <a className="text-danger" href="mailto:pyakurelsagar35@gmail.com"  target="_blank" rel= "noreferrer"> pyakurelsagar35@gmail.com</a>
+          
+          </h5> <hr />
+          <br/>
+  <div className="conatiner mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
-      <Form.Label> First Name *</Form.Label>
-      <Form.Control type="name" placeholder="Enter your first name " required/>
-    </Form.Group>
+      <Form.Label> Name *</Form.Label>
+      <Form.Control type="name" placeholder="Enter your name" required/>
+    </Form.Group> <br/>
 
     <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Last Name * </Form.Label>
-      <Form.Control type="name" placeholder="Please enter your last name "  required/>
+      <Form.Label>Email * </Form.Label>
+              <Form.Control type="name" placeholder="Please enter your email " required />
+            </Form.Group>
+            <br/>
 
-    </Form.Group>
-  </Row>
-
-  <Form.Group className="mb-3" controlId="formGridAddress1">
-    <Form.Label>Address</Form.Label>
-    <Form.Control placeholder="1234 suburb " />
+              <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Message</Form.Label>
+    <Form.Control as="textarea" rows={5} />
   </Form.Group>
-
-  {/* <Form.Group className="mb-3" controlId="formGridAddress2">
-    <Form.Label>Address 2</Form.Label>
-    <Form.Control placeholder="Apartment, studio, or floor" />
-  </Form.Group> */}
-
-  <Row className="mb-3">
-    <Form.Group as={Col} controlId="formGridCity">
-      <Form.Label>City</Form.Label>
-      <Form.Control />
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Select defaultValue="Choose...">
-        <option>Choose...</option>
-        <option>NSW</option>
-        <option>ACT</option>
-        <option>TAS</option>
-        <option>WA</option>
-        <option>NT</option>
-        <option>QLD</option>
-        <option>VIC</option>
-        <option>SA</option>
-      </Form.Select>
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridZip">
-      <Form.Label>Postcode</Form.Label>
-      <Form.Control />
-    </Form.Group>
-  </Row>
-
-  <Form.Group className="mb-3" id="formGridCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-
+             <br/>
+            
+  
+  
   <Button variant="primary" type="submit">
     Submit
   </Button>
+ </div>
+
+  
 </Form>
    </DefaultLayout>
     )
