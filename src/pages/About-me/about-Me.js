@@ -1,6 +1,6 @@
 import React from 'react'
 import DefaultLayout from '../layout/DefaultLayout'
-import logo1 from "../../assets/s3.png"
+import logo1 from "../../assets/about.jpg"
 import { Col, Container, Row } from 'react-bootstrap'
 import  "./Aboutme.style.css";
 

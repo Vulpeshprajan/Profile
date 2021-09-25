@@ -1,17 +1,19 @@
 import React from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import DefaultLayout from '../layout/DefaultLayout'
+import "./Contactme.style.css";
+import logo1 from "../../assets/s2.jpg";
 
 const Contact = () => {
     return (
         <DefaultLayout>
           
       
-            <Form className="container-fluid " >
+            <Form className="container " >
           <h1 ><strong> Lets talk  </strong></h1> <br />
           <h5>Get in touch via the form below, or by emailing
           
-          <a className="text-danger" href="mailto:pyakurelsagar35@gmail.com"  target="_blank" rel= "noreferrer"> pyakurelsagar35@gmail.com</a>
+          <a className="mail" href="mailto:pyakurelsagar35@gmail.com"  target="_blank" rel= "noreferrer"> pyakurelsagar35@gmail.com</a>
           
           </h5> <hr />
           <br/>
@@ -41,7 +43,9 @@ const Contact = () => {
  </div>
 
   
-</Form>
+        </Form>
+        
+        
    </DefaultLayout>
     )
 }

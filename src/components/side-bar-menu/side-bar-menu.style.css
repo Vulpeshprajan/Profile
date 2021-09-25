@@ -11,7 +11,7 @@ a.logo {
   margin-bottom: 180px;
   margin-left: 32px;
   display: inline-block;
-  color: yellow;
+  color: white;
   font-size: 10rem;
   font-weight: bolder;
   font-stretch: ultra-expanded;
@@ -21,7 +21,7 @@ a.logo {
 .logo1 {
   position: absolute;
   height: 4px;
-  left: 76px;
+  left: 78px;
   margin-bottom: 180px;
   display: inline-block;
   margin-left: 0.5px;
@@ -29,7 +29,7 @@ a.logo {
   font-weight: bolder;
   font-stretch: ultra-expanded;
   font-family: "Cinzel", serif;
-  color: lightslategray;
+  color: rgb(38, 199, 59);
   /* color: rgb(241, 75, 103); */
 }
 
@@ -37,10 +37,10 @@ a.logo {
 
 ul li a.menu-item {
   list-style: none;
-  font-family: "Cinzel", serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 4rem;
   text-decoration: none;
-  color: white;
+  color: gray;
   font-size: 1.5rem;
   transition: 1000ms;
   border-radius: 4px;

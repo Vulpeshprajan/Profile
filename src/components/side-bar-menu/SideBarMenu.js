@@ -30,23 +30,23 @@ export const SideBarMenu = () => {
 				<ul>
 					<li>
 						<Link className="menu-item" to="/home">
-						<i className="fas fa-house-user text-danger"></i>  Home
+						<i className="fas fa-house-user text-secondary"></i>  Home
 						</Link>
 					</li>
 
 					<li>
 						<Link className="menu-item" to="/skills">
-						<i className="fab fa-react text-info"></i> Skills
+						<i className="fab fa-react text-secondary"></i> Skills
 						</Link>
 					</li>
 					<li>
 						<Link className="menu-item" to="/About-Me">
-						<i className="far fa-address-card text-success"></i>  About Me
+						<i className="far fa-address-card text-secondary"></i>  About Me
 						</Link>
 					</li>
 					<li>
 						<Link className="menu-item" to="/Projects">
-						<i className="fas fa-tasks text-primary"></i> Projects
+						<i className="fas fa-tasks text-secondary"></i> Projects
 						</Link>
 					</li>
 					<li>

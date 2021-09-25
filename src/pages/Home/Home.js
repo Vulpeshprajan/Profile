@@ -29,7 +29,7 @@ const Home = () => {
                    </Link>
                   <Link to="/About-Me">
                     
-                  <button type="button" className="btn btn-primary" >  Find out more about me 
+                  <button type="button" className="btn btn-info" >  Find out more about me 
               </button>
 					
 						</Link>

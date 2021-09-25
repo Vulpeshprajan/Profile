@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  justify-content: start;
+}
+
+.mail {
+  text-decoration: none;
+  color: orange;
+}
