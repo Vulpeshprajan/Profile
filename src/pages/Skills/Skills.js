@@ -16,7 +16,7 @@ const Skills = () => {
         <div class="row">
           <div class="col">
               </div>
-            <div class="section-title text-center py-4">Skills</div>
+            <div class="section-title text-left py-3">Skills</div>
           </div>
         <div class="row">
         <div class="col">
