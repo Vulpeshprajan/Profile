@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
-
+import sth from "../../assets/resume.docx";
+import "./Header.style.css";
 const Header = () => {
     return (
         <div>
@@ -13,9 +14,13 @@ const Header = () => {
 					</LinkContainer>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="ms-auto bg-light">
+						<Nav className=" ms-auto bg-light">
 					
-							<Nav.Link  > <strong  style={{ color: "black" }}> Portfolio </strong> </Nav.Link>
+							<div className="resume">
+								<button className="bg-info"> 
+							<a href={sth} download="sagar resume" >Resume</a>  
+							</button>
+							</div>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

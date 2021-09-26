@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import DefaultLayout from '../layout/DefaultLayout'
 import "./Contactme.style.css";
-import logo1 from "../../assets/s2.jpg";
+
 
 const Contact = () => {
     return (
@@ -25,7 +25,7 @@ const Contact = () => {
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label>Email * </Form.Label>
-              <Form.Control type="name" placeholder="Please enter your email " required />
+              <Form.Control type="email" placeholder="Please enter your email " required />
             </Form.Group>
             <br/>
 

@@ -9,17 +9,17 @@ const Home = () => {
     return (
         <div>
             <DefaultLayout>
-            <div className="container hero">
+            <div className="container">
         <div className="row mt-3">
           <div className="col-md-5 order-md-2">
             <img src={logo} alt="sagar" width="80%," height="auto;" />
           </div>
-          <div className="col-md-7 order-md-1 hero-text">
+          <div className="col-md-7 order-md-1 hero-text ">
             <h5>  Hi there welcome to my website</h5>
             <h1>I'm Sagar Pyakurel</h1>
             <p>
               I'm a full stack developer always passionate about solving the
-              problem & creating always a new design from nothing.
+              problem & creating always a new design from scratch.
             </p>
                 <div>
                 <Link to="/Contact">
@@ -27,12 +27,12 @@ const Home = () => {
                    <br /> <br />
 
                    </Link>
-                  <Link to="/About-Me">
+                  {/* <Link to="/About-Me">
                     
                   <button type="button" className="btn btn-info" >  Find out more about me 
               </button>
 					
-						</Link>
+						</Link> */}
                   
               <hr />
             </div>
