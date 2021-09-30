@@ -25,7 +25,7 @@ import "./Contactme.style.css";
     };
   
     const handleOnSubmit = e => {
-      e.preventDefault();
+      // e.preventDefault();
       contactMe(frmData);
     };
 

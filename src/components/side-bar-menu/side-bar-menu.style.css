@@ -40,14 +40,15 @@ ul li a.menu-item {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 4rem;
   text-decoration: none;
-  color: gray;
+  color: white;
   font-size: 1.5rem;
-  transition: 1000ms;
+  transition: transform 0.4s;
   border-radius: 4px;
 }
 
 ul li a.menu-item:hover {
-  background-color: #1a83ff;
+  background: linear-gradient(cyan, red);
+  transform: scale(1.2) !important;
 }
 
 .social {

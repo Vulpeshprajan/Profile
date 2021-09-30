@@ -17,7 +17,7 @@ const Header = () => {
 						<Nav className=" ms-auto bg-light">
 					
 							<div className="resume">
-								<button className="bg-info"> 
+								<button className="bg-info" > 
 							<a href={sth} download="sagar resume" >Resume</a>  
 							</button>
 							</div>
