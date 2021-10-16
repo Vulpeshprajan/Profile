@@ -27,7 +27,7 @@ const App = () => {
 
   const contactMe = frmDt => {
 
-    axios.post('http://localhost:8000/api/v1/', frmDt)
+    axios.post('http://localhost:5000/api/v1/', frmDt)
       .then(response => {
         console.log(response)
       })
